@@ -9,4 +9,9 @@ public class Sample {
     public String hellocome(){
         return "hello world";
     }
+
+    @GetMapping("/name")
+    public String namecome(){
+        return "onemoon";
+    }
 }
